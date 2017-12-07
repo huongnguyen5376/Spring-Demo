@@ -1,0 +1,125 @@
+#first_content {
+	width: 30%;
+	float: left;
+	position: absolute;
+}
+
+#second_content {
+	width: 67.3%;
+	float: right;
+}
+
+.login {
+	text-align: center;
+	margin-top: 3px;
+	padding-top: 20px;
+	width: 100%;
+    border: 2px solid brown;
+    border-radius: 3px;
+}
+
+.someText {
+	width: 80%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #a58275;
+	border-radius: 3px;
+	padding-left: 25px;
+}
+
+#signinUser {
+	border: 2px solid #a58275;
+	border-radius: 3px; 
+	height: 40px; 
+	width: 50%; 
+	background-color: #49195d;
+	margin-right: 160px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+ul.listdot li.listdot {
+	clear: both;
+	list-style-type: disc;
+}
+
+ul.listdot {
+	overflow: visible;
+	background-color: white;
+	padding-right: 200px;
+	padding-left: 30px;
+}
+
+li.listdot a.listdot {
+	background-color: white;
+	padding: 5px 16px;
+}
+
+a.listdot {
+	color: blue;
+}
+
+li.listdot {
+	font-size: 14px;
+}
+
+.cate {
+	text-align: center;
+	margin-top: 3px;
+	padding-top: 20px;
+	width: 100%;
+    border: 2px solid brown;
+    border-radius: 3px;
+    height: 180px;	
+}
+
+.h1 {
+	color: #0893bd; 
+	margin-left: 15px; 
+	margin-top: 2px;	
+}
+
+.h2 {
+	margin-left: 15px; 
+	margin-top: 2px;
+	padding-top: 10px;	
+	color: #ca8400;	
+}
+
+.p {
+	text-overflow: ellipsis !important;
+	margin-left: 15px; 
+	margin-top: 2px;	
+	padding-top: 5px;
+}
+
+.h5 {
+	float: left;
+	font-size: 16px;
+	margin-left: -60px;
+}
+
+.info {
+	float: right;
+	margin-right: 10px;
+}
+
+.h5v2 {
+	float: left;
+	font-size: 16px;
+}
+
+.news {
+	border-color: orange;
+	border-style: dotted;
+	height: 140px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.h2 .link {
+	color: #b34f31 !important;
+	text-decoration: none !important;
+}

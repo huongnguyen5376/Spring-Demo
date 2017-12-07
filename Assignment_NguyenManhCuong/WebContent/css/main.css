@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 1px;
+}
+
+#header {
+	height: 250px;
+}
+
+body {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 94%
+}
+
+#menu {
+	margin-top: 2px;
+	width: 100%;
+	background-color: #3a3737;
+}
+
+li a {
+	display: block;
+	background-color: #3a3737;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+ul li {
+	float: left;
+}
+
+ul {
+	width: 148px;
+	margin: 0 auto;
+	list-style: none;
+	background-color: #333; 	
+	overflow: hidden;
+	list-style-type: none;
+}
+
+a {
+	color: white;
+}
