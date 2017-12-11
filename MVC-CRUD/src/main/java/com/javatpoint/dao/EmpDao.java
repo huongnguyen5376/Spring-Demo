@@ -1,9 +1,10 @@
-package com.javatpoint.dao;
+/*package com.javatpoint.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -11,6 +12,7 @@ import org.springframework.jdbc.core.RowMapper;
 import com.javatpoint.beans.Emp;
 
 public class EmpDao {
+	final static Logger logger = Logger.getLogger(EmpDao.class);
 	JdbcTemplate template;
 
 	public void setTemplate(JdbcTemplate template) {
@@ -20,6 +22,8 @@ public class EmpDao {
 	public int save(Emp p) {
 		String sql = "insert into emp99(Name,Salary,Designation) values('" + p.getName() + "'," + p.getSalary() + ",'"
 				+ p.getDesignation() + "')";
+		logger.debug("Hello world");
+		logger.trace("Hello world");
 		return template.update(sql);
 	}
 
@@ -52,3 +56,4 @@ public class EmpDao {
 		});
 	}
 }
+*/

@@ -1,4 +1,4 @@
-package com.javatpoint.beans;
+/*package com.javatpoint.beans;
 
 public class Emp {
 private int id;
@@ -32,3 +32,4 @@ public void setDesignation(String designation) {
 }
 
 }
+*/
