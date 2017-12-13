@@ -20,24 +20,17 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
 		<property name="url"
-			value="jdbc:sqlserver://localhost:1433;DatabaseName=TestApp;" />
+			value="jdbc:sqlserver://localhost:1433;DatabaseName=Euro;" />
 		<property name="username" value="sa" />
 		<property name="password" value="123456" />
 	</bean>
 
-<!-- 	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
-		<property name="dataSource" ref="ds"></property>
-	</bean>
-
-	<bean id="dao" class="com.javatpoint.dao.EmpDao">
-		<property name="template" ref="jt"></property>
-	</bean> -->
-	
 	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="ds"/>
 	</bean>
-
-	<bean id="dao" class="com.javatpoint.dao.UserDAO">
+	
+	<bean id="dao" class="com.javatpoint.dao.TeamManageDAO">
 		<property name="template" ref="jt"/>
 	</bean>	
+	
 </beans>

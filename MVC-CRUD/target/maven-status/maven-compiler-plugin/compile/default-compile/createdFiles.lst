@@ -1,0 +1,4 @@
+com\javatpoint\controllers\MyController.class
+config\SpringWebAppInitializer.class
+config\WebMvcConfig.class
+config\ApplicationContextConfig.class
